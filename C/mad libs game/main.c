@@ -30,5 +30,10 @@ int main(){
     fgets(adj3, sizeof(adj3), stdin);
     adj3[strcspn(adj3, "\n")] = 0; // Remove newline character from input
 
+    printf("\nToday I went to %s zoo.\n", adj1);
+    printf("I saw a %s %s.\n", adj2, noun);
+    printf("It was %s and %s.\n", verb, adj3);
+    printf("I can't wait to go back!\n");
+
     return 0;
 }
